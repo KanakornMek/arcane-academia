@@ -1,5 +1,5 @@
 import React from 'react';
-  import BottomNavBar from '@/app/components/BottomNavBar'; // Adjust import path if needed
+  import BottomNavBar from '@/app/components/BottomNavBar'; 
 
   export default function MainLayout({
     children,
@@ -7,9 +7,9 @@ import React from 'react';
     children: React.ReactNode;
   }) {
     return (
-      <div className="flex flex-col min-h-screen"> {/* Or your preferred layout structure */}
-        <main className="flex-grow"> {/* Ensures content takes up space */}
-          {children} {/* Page content will be rendered here */}
+      <div className="flex flex-col min-h-screen"> 
+        <main className="flex-grow">
+          {children}
         </main>
         <BottomNavBar />
       </div>
